@@ -11,7 +11,7 @@ const signUp = () => {
 signUp();
 */
 
-const maxNr = (n1, n2) => {
+const maxNr = (n1 = 6, n2 = 5) => {
   if (n1 > n2) {
     return "n1 is bigger";
   } else {
@@ -19,4 +19,4 @@ const maxNr = (n1, n2) => {
   }
 };
 
-console.log(maxNr(6, 5));
+console.log(maxNr());
