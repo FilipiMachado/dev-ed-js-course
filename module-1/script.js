@@ -3,4 +3,8 @@ const greet = () => {
   console.log(`Welcome to our website ${nameInput}`);
 };
 
-greet();
+const signUp = ()=> {
+  greet();
+}
+
+signUp();
