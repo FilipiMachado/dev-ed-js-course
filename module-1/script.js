@@ -24,11 +24,9 @@ const maxNr = (n1 = 6, n2 = 5) => {
 console.log(maxNr());
 */
 
-const usersList = ["Dev Fil", "Joao das Neves", "Severino", "Onça"];
+const guessNumber = () => {
+  let randomNr = Math.floor(Math.random() * 11);
+  console.log(randomNr);
+};
 
-const numbers = [6, 5, 7.58742848484, 3.25];
-
-console.log(numbers.map(Math.round));
-console.log(numbers)
-
-
+guessNumber();
