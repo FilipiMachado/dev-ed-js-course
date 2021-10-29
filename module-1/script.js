@@ -1,4 +1,7 @@
 /*
+
+// FUNCTIONS
+
 const greet = (text) => {
   console.log(`Welcome to our website ${text}`);
 };
@@ -9,7 +12,6 @@ const signUp = () => {
 };
 
 signUp();
-*/
 
 const maxNr = (n1 = 6, n2 = 5) => {
   if (n1 > n2) {
@@ -20,3 +22,5 @@ const maxNr = (n1 = 6, n2 = 5) => {
 };
 
 console.log(maxNr());
+*/
+
