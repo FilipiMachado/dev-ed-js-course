@@ -24,3 +24,5 @@ const maxNr = (n1 = 6, n2 = 5) => {
 console.log(maxNr());
 */
 
+
+
