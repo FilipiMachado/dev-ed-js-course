@@ -1,32 +1,16 @@
+const button = document.querySelector("#submit-btn");
+const todoList = document.querySelector("#todo-list");
+const items = todoList.children;
 
+// CLICK, SCROLL, RESIZING BROWSER
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ATTACH A EVENT LISTENER
+button.addEventListener("click", () => {
+  const newItem = document.createElement("li");
+  newItem.classList.add("item");
+  newItem.innerText = "New Item";
+  todoList.appendChild(newItem);
+});
 
 /* const nodeItems = document.getElementsByClassName("item");
 const todoList = document.getElementById("todo-list");
