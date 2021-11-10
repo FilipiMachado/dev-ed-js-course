@@ -18,10 +18,9 @@ button.addEventListener("click", () => {
   newItem.innerText = `Item ${items.length + 1}`;
   todoList.appendChild(newItem);
   todoNr.innerText = items.length;
-});
 
-for (item of items) {
-  item.addEventListener("click", () => {
+  // Create the element and attach the listener
+  newItem.addEventListener("click", () => {
     console.log("delete");
   });
-}
+});
