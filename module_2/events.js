@@ -13,13 +13,14 @@ const items = todoList.children;
 // CLICK, SCROLL, RESIZING BROWSER
 
 // ATTACH A EVENT LISTENER
-button.addEventListener("click", () => {
+button.addEventListener("click", (event) => {
+  event.preventDefault();
   // Creating element
   const newItem = document.createElement("li");
   // Adding class
   newItem.classList.add("item");
   // Adding the text
-  newItem.innerText = `Item ${items.length + 1}`;
+  newItem.innerText = nameInput.value;
   todoList.appendChild(newItem);
   todoNr.innerText = items.length;
 
@@ -28,8 +29,6 @@ button.addEventListener("click", () => {
     event.stopPropagation();
     event.target.remove();
     todoNr.innerText = items.length;
-
-    console.log(nameInput);
   });
 });
 
