@@ -10,19 +10,24 @@ const nameInput = document.querySelector(".name-input");
 
 const items = todoList.children;
 
-// CLICK, SCROLL, RESIZING BROWSER
-
 // ATTACH A EVENT LISTENER
 button.addEventListener("click", (event) => {
+  // Prevent the page refresh
   event.preventDefault();
+
   // Creating element
   const newItem = document.createElement("li");
+
   // Adding class
   newItem.classList.add("item");
+
   // Adding the text
   newItem.innerText = nameInput.value;
   todoList.appendChild(newItem);
   todoNr.innerText = items.length;
+
+  // Delete the value from the input
+  nameInput.value = "";
 
   // Create the element and attach the listener
   newItem.addEventListener("click", (event) => {
