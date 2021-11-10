@@ -21,6 +21,7 @@ button.addEventListener("click", () => {
 
   // Create the element and attach the listener
   newItem.addEventListener("click", (event) => {
-    console.log(event.target);
+    event.target.remove();
+    todoNr.innerText = items.length;
   });
 });
