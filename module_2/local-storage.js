@@ -15,8 +15,8 @@ console.log(user);
 
 const myTodoList = ["feed the cockatiel", "wash", "listen to aot ost"];
 
-localStorage.setItem("todos", myTodoList);
+localStorage.setItem("todos", JSON.stringify(myTodoList));
 
-const retrieved = localStorage.getItem("todos");
+const retrieved = JSON.parse(localStorage.getItem("todos"));
 
 console.log(retrieved);
