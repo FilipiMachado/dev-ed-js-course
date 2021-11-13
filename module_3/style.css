@@ -12,6 +12,8 @@
     font-size: 50px;
 }
 
+/* TASK */
+
 .todo-form {
     display: flex;
     justify-content: center;
@@ -42,6 +44,10 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.todo-form__task {}
+
+/* FILTER */
 
 .filter-container {
     display: flex;
