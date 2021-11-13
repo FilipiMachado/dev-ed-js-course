@@ -4,7 +4,16 @@ const tasks = document.querySelector(".todo-form__task");
 
 taskButton.addEventListener("click", (event) => {
   event.preventDefault();
-  const newTask = tasks.value;
+
+  // Creating element
+  const newTask = document.createElement("p");
+
+  // Adding class
+  newTask.classList.add("new-task");
+
+  // Adding the text
+  newTask.innerText = taskInput.value;
+
   console.log(newTask);
 });
 
