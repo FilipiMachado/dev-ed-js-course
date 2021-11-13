@@ -4,21 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Scripts -->
     <script src="script.js"></script>
     <title>To-do List</title>
   </head>
   <body>
-    <h1>Fil's Todo List</h1>
-    <form>
-      <input type="text" placeholder="Add your todo here..." />
-      <button type="submit">+</button>
+    <h1 class="main-title">Vick's</h1>
+    <h1 class="main-title">Lista de Tarefas</h1>
+    <form class="todo-form">
+      <input
+        class="todo-form__input"
+        type="text"
+        placeholder="Adicione sua tarefa..."
+      />
+      <button class="todo-form__button" type="submit">+</button>
     </form>
     <div>
       <select>
-        <option>All</option>
-        <option>Completed</option>
-        <option>Uncompleted</option>
+        <option>Todas</option>
+        <option>Completas</option>
+        <option>Incompletas</option>
       </select>
     </div>
   </body>
