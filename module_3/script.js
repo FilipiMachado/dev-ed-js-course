@@ -1,5 +1,7 @@
 const taskInput = document.querySelector(".todo-form__input");
 const taskButton = document.querySelector(".todo-form__button");
+const taskButton = document.querySelector(".todo-form__button");
+
 
 taskButton.addEventListener("click", (event) => {
   event.preventDefault();

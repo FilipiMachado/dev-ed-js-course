@@ -45,7 +45,9 @@
     cursor: pointer;
 }
 
-.todo-form__task {}
+.todo-form__task {
+    background-color: #ffffff;
+}
 
 /* FILTER */
 
