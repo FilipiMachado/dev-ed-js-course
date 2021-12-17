@@ -6,4 +6,9 @@ namedPerson = "hgueheu"
 
 const names = ["Fil", "Hue", "Jabulani"]
 
-names[1]
+console.log(names)
+
+names[1] = "Huego"
+names.push("Regado")
+
+console.log(names)
