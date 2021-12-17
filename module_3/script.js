@@ -41,10 +41,15 @@ function addTodo(event) {
 
 function removeTask(e) {
   let item = e.target;
-  // Remove Check
+  // Remove Task
   if (item.classList[0] == "delete-btn") {
     const todo = item.parentElement
     todo.remove();
+  }
+  // Check Task
+  if(item.classList[0] == "check-btn") {
+    const todo = item.parentElement
+    todo.classList.toggle("completed")
   }
 }
 
