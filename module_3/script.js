@@ -43,19 +43,8 @@ function removeTask(e) {
   let item = e.target;
   // Remove Check
   if (item.classList[0] == "delete-btn") {
-    console.log(item.parentElement)
     const todo = item.parentElement
     todo.remove();
   }
 }
 
-/* function removeCheck(e) {
-  let item = e.target;
-  // Remove Check
-  if (item.classList[0] == "delete-btn") {
-    console.log(item.parentElement)
-    const todo = item.parentElement
-    todo.remove();
-  }
-}
- */

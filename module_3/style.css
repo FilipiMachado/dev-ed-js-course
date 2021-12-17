@@ -1,70 +1,96 @@
 * {
-    margin: 0;
-    background-color: rgb(255, 181, 194);
-    font-family: 'Encode Sans', sans-serif;
+  margin: 0;
+  background-color: rgb(255, 181, 194);
+  font-family: "Encode Sans", sans-serif;
 }
 
 .main-title {
-    text-align: center;
-    color: rgb(99, 28, 28);
-    margin-top: 20px;
-    font-weight: 800;
-    font-size: 50px;
+  text-align: center;
+  color: rgb(99, 28, 28);
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 50px;
 }
 
 /* TASK */
 
 .todo-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .todo-form__input {
-    width: 300px;
-    height: 40px;
-    margin-top: 40px;
-    background-color: #ffffff;
-    font-size: 15px;
-    font-weight: 600;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
+  width: 300px;
+  height: 40px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .todo-form__button {
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    border: none;
-    margin: 40px 0 0 10px;
-    background-color: #ffffff;
-    font-weight: 600;
-    font-size: 15px;
-    border-radius: 10px;
-    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  margin: 40px 0 0 10px;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .todo-form__task {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 /* FILTER */
 
 .filter-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .filter-container__select {
-    border: 2px solid #ffffff;
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 5px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .filter-container__option {
-    border: 2px solid #ffffff;
-    background-color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.check-btn {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: none;
+  margin: 10px 0 0 10px;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: none;
+  margin: 10px 0 0 10px;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
