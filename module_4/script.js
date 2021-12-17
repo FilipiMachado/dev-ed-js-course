@@ -6,9 +6,9 @@ namedPerson = "hgueheu"
 
 const names = ["Fil", "Hue", "Jabulani"]
 
-console.log(names)
+const newNames = names
 
-names[1] = "Huego"
-names.push("Regado")
+newNames.push("Muié")
+newNames.reverse()
 
-console.log(names)
+console.log(newNames)
